@@ -1,16 +1,34 @@
 body {
+
     font-family: 'Source Sans Pro', 'sans-serif';
+
 }
 
 .topo-1 {
+    position: fixed;
     display: flex;
+    width: 1024px;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: white;
 }
 
 .topo-2 {
 
+    text-transform: uppercase;
+
 }
 
 .link-topo {
+
+    text-decoration: none;
+    color:black;
+}
+
+.link-topo span {
+
+    text-decoration: none;
+    color: blue;
 
 }
 
@@ -23,7 +41,9 @@ body {
 }
 
 .container-1-titulo {
-
+    padding: 50px 50px;
+    text-align: center;
+    
 }
 
 .container-2-titulo {
