@@ -12,6 +12,7 @@ body {
     width: 96vmax;
     padding: 20px 20px;
     background-color: white;
+    z-index: 1;
 }
 
 .topo-2 {
@@ -60,6 +61,7 @@ body {
     height: 25%;
     left: 25%;
     padding: 3%;
+    
 }
 
 .container-1-titulo h1 {
