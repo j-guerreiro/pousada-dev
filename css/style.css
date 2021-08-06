@@ -1,10 +1,12 @@
 body {
+
     margin: 0 auto;
     font-family: 'Source Sans Pro', 'sans-serif';
 
 }
 
 .topo-1 {
+
     font-size: 20px;
     position: fixed;
     display: flex;
@@ -13,6 +15,7 @@ body {
     padding: 20px 20px;
     background-color: white;
     z-index: 1;
+
 }
 
 .topo-2 {
@@ -43,6 +46,7 @@ body {
 }
 
 .container-1-fundo {
+
     background-image: url(/assets/img-fundo.jpg);
     background-repeat: no-repeat;
     width: 1600;
@@ -51,6 +55,7 @@ body {
 }
 
 .container-1-titulo {
+
     position: absolute;
     text-align: center;
     border-style: solid;
@@ -65,15 +70,19 @@ body {
 }
 
 .container-1-titulo h1 {
+
     font-size: 50px;
     font-weight: 800;
     color: #ffff;
+
 }
 
 .container-1-titulo p {
+
     font-size: 25px;
     font-weight: 600;
     color: #ffff;
+    
 }
 
 #container-1-cabecalho {
