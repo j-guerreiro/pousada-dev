@@ -53,9 +53,30 @@ body {
     position: relative;
     text-align: center;
     border-style: solid;
-    background-color: rgba(rgb(73, 185, 58), green, blue, 90%);
+    border-color: #ffff;
+    background-color: green;
+    top: 200px;
+}
+
+.container-1-titulo h1 {
+    font-size: 50px;
+    font-weight: 800;
     color: #ffff;
-    top: 50px;
+}
+
+.container-1-titulo p {
+    font-size: 25px;
+    color: #ffff;
+}
+
+#container-1-cabecalho {
+
+
+
+}
+
+#container-1-paragrafo {
+
 }
 
 .container-2-titulo {
