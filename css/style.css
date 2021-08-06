@@ -59,6 +59,7 @@ body {
     position: absolute;
     text-align: center;
     border-style: solid;
+    border-radius: 1%;
     border-color: #ffff;
     background-color: rgba(52, 133, 52, 0.589);
     top: 35%;
@@ -82,7 +83,7 @@ body {
     font-size: 25px;
     font-weight: 600;
     color: #ffff;
-    
+
 }
 
 #container-1-cabecalho {
