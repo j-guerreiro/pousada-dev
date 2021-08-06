@@ -50,12 +50,16 @@ body {
 }
 
 .container-1-titulo {
-    position: relative;
+    position: absolute;
     text-align: center;
     border-style: solid;
     border-color: #ffff;
-    background-color: green;
-    top: 200px;
+    background-color: rgba(52, 133, 52, 0.589);
+    top: 35%;
+    width: 40%;
+    height: 25%;
+    left: 25%;
+    padding: 3%;
 }
 
 .container-1-titulo h1 {
@@ -66,6 +70,7 @@ body {
 
 .container-1-titulo p {
     font-size: 25px;
+    font-weight: 600;
     color: #ffff;
 }
 
