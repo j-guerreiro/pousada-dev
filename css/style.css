@@ -41,10 +41,21 @@ body {
 
 }
 
-.container-1-titulo {
-    padding: 50px 50px;
-    text-align: center;
+.container-1-fundo {
+    background-image: url(/assets/img-fundo.jpg);
+    background-repeat: no-repeat;
+    width: 1600;
+    height: 1000px;
     
+}
+
+.container-1-titulo {
+    position: relative;
+    text-align: center;
+    border-style: solid;
+    background-color: rgba(rgb(73, 185, 58), green, blue, 90%);
+    color: #ffff;
+    top: 50px;
 }
 
 .container-2-titulo {
