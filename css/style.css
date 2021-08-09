@@ -152,14 +152,11 @@ body {
 }
 
 
-#quartos {
-
-}
-
 .container-3-quartos {
 
     display: flex;
     padding: 1%;
+    
     
 }
 
@@ -172,6 +169,20 @@ body {
     font-weight: 600;
 
 }
+
+.quartos {
+
+   transition: 0.5s;
+
+}
+
+.quartos:hover{
+
+    box-shadow: 5px 15px 15px rgb(123, 126, 123);
+    border-radius: 10px;
+
+}
+
 
 #texto-quartos{
 
@@ -232,7 +243,29 @@ body {
 
 .container-5-sobre {
 
+    margin-top: 5%;
+    position: inherit;
+    text-align: center;
+    padding: 25px 25px;
+
 }
+
+.container-5-sobre h2 {
+
+    font-size: 40px;
+    font-weight: 350;
+    text-transform: uppercase;
+
+}
+
+.container-5-sobre p {
+
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
 
 .container-6-cards {
 
