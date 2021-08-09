@@ -196,11 +196,12 @@ body {
 }
 
 .container-3-quartos img {
-
+    display: flex;
     width: 95%;
     height: 95%;
     padding-left: 2%;
     padding-right: 2%;
+    align-content: flex-end;
 
 }
 
@@ -275,7 +276,23 @@ body {
 
 
 
-.container-6-cards {
+.container-6-cards .cards{
+    
+    display: flex;
+    padding: 1%;
+    cursor: pointer;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    
+
+}
+
+.container-6-cards img {
+
+    width: 15%;
+    height: 60%;
+    padding-left: 2%;
+    padding-right: 2%;
 
 }
 
