@@ -129,6 +129,7 @@ body {
 
 .container-2-titulo {
     
+    margin-top: 5%;
     position: inherit;
     text-align: center;
     padding: 25px 25px;
@@ -138,8 +139,15 @@ body {
 .container-2-titulo h2{
 
     font-size: 40px;
-    font-weight: 300;
+    font-weight: 350;
     text-transform: uppercase;
+    
+}
+
+.container-2-titulo p{
+
+    font-size: 16px;
+    font-weight: 400;
     
 }
 
@@ -150,11 +158,62 @@ body {
 
 .container-3-quartos {
 
+    display: flex;
+    
+
+}
+
+.container-3-quartos a{
+
+    
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-weight: 400;
+    align-self: flex-end;
+
+}
+
+.quartos {
+
+    border-style: solid;
+    
+}
+
+.container-3-quartos img {
+
+    width: 90%;
+    height: 90%;
+    padding: 20px 20px;
+
 }
 
 .container-4-rota {
 
+    margin-top: 5%;
+    position: inherit;
+    text-align: center;
+    padding: 25px 25px;
+
 }
+
+.container-4-rota h2 {
+
+    font-size: 40px;
+    font-weight: 350;
+    text-transform: uppercase;
+
+}
+
+.container-4-rota p {
+
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+
 
 #sobre {
 
