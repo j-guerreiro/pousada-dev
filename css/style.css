@@ -8,6 +8,7 @@ body {
 .topo-1 {
 
     font-size: 20px;
+    font-weight: 350;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -26,10 +27,8 @@ body {
 
 .link-topo:hover  {
 
-    background-color: rgba(52, 133, 52, 0.589);
-    color: white;
-    padding: 16px 32px;
-    border-radius: 1%;
+    color: rgba(52, 133, 52, 0.589);
+    
 
 }
 
@@ -48,10 +47,8 @@ body {
 
 .topo-2 a:hover {
     
-    background-color: rgba(52, 133, 52, 0.589);
-    color: white;
-    padding: 16px 32px;
-
+    color: rgba(52, 133, 52, 0.589);
+    
 }
 
 .link-topo {
@@ -64,7 +61,9 @@ body {
 .link-topo span {
 
     text-decoration: none;
-    color: blue;
+    color: rgb(52, 133, 52);
+    font-weight: 600;
+
 
 }
 
@@ -82,6 +81,7 @@ body {
     background-repeat: no-repeat;
     width: 1600;
     height: 1000px;
+    cursor: pointer;
     
 }
 
@@ -92,7 +92,7 @@ body {
     border-style: solid;
     border-radius: 1%;
     border-color: #ffff;
-    background-color: rgba(52, 133, 52, 0.589);
+    background-color: rgba(12, 150, 97, 0.589);
     top: 40%;
     width: 40%;
     height: 25%;
@@ -156,6 +156,7 @@ body {
 
     display: flex;
     padding: 1%;
+    cursor: pointer;
     
     
 }
@@ -234,6 +235,13 @@ body {
 
 }
 
+.mapa {
+    width: 100%; 
+    height: 450px;
+    border-color:  white;
+    border-style: 1px;
+    margin: 0;
+}
 
 
 
