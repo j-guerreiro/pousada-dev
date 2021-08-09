@@ -21,6 +21,7 @@ body {
 .link-topo {
 
     transition: 0.3s;
+
 }
 
 .link-topo:hover  {
@@ -28,7 +29,7 @@ body {
     background-color: rgba(52, 133, 52, 0.589);
     color: white;
     padding: 16px 32px;
-    border-radius: 10pt;
+    border-radius: 1%;
 
 }
 
@@ -42,6 +43,7 @@ body {
 
     margin: 15px;
     transition: 0.3s;
+
 }
 
 .topo-2 a:hover {
@@ -49,12 +51,14 @@ body {
     background-color: rgba(52, 133, 52, 0.589);
     color: white;
     padding: 16px 32px;
+
 }
 
 .link-topo {
 
     text-decoration: none;
     color:black;
+
 }
 
 .link-topo span {
@@ -89,7 +93,7 @@ body {
     border-radius: 1%;
     border-color: #ffff;
     background-color: rgba(52, 133, 52, 0.589);
-    top: 35%;
+    top: 40%;
     width: 40%;
     height: 25%;
     left: 25%;
@@ -124,6 +128,7 @@ body {
 }
 
 .container-2-titulo {
+    
     position: inherit;
     text-align: center;
     padding: 25px 25px;
