@@ -274,27 +274,52 @@ body {
 
 }
 
-
-
-.container-6-cards .cards{
-    
+.container-6-cards {
     display: flex;
     padding: 1%;
     cursor: pointer;
-    flex-flow: row wrap;
-    align-items: flex-start;
-    
+    flex-direction: column;
+}
 
+.container-6-cards .cards{
+    display: flex;
+    
+}
+
+.container-6-cards h3 {
+    display: flex;
+    justify-content: left;
+    font-weight: 600;
+}
+
+.container-6-cards p {
+
+    display: flex;
+    justify-content: left;
+    font-weight: 350;
 }
 
 .container-6-cards img {
 
-    width: 15%;
-    height: 60%;
-    padding-left: 2%;
-    padding-right: 2%;
+    display: flex;
+    justify-content: right;
+    width: 200px;
+    height: 200px;
+    padding: 3%;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .pousada {
 
