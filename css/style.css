@@ -276,10 +276,10 @@ body {
 
 .container-6-cards {
     width: 100%;
-    bottom: 25%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    margin: 10px 10px;
 }
 
 .container-6-cards .cards {
@@ -293,13 +293,18 @@ body {
 
 .container-6-cards p {
     font-weight: 350;
-    display: inline;
+    text-align: left;
+    margin-right: 150px;
+
 }
 
 .container-6-cards img {
+    position: relative;
     justify-content: right;
-    width: 100px;
-    height: 120px;  
+    left: 450px;
+    width: 130px;
+    height: 120px;
+    bottom: 135px;  
 }
 
 
