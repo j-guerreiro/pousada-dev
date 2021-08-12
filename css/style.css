@@ -275,38 +275,31 @@ body {
 }
 
 .container-6-cards {
+    width: 100%;
+    bottom: 25%;
     display: flex;
-    padding: 1%;
-    cursor: pointer;
-    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
-.container-6-cards .cards{
-    display: flex;
-    
+.container-6-cards .cards {
+    width: 600px;
 }
 
 .container-6-cards h3 {
-    display: flex;
     justify-content: left;
     font-weight: 600;
 }
 
 .container-6-cards p {
-
-    display: flex;
-    justify-content: left;
     font-weight: 350;
+    display: inline;
 }
 
 .container-6-cards img {
-
-    display: flex;
     justify-content: right;
-    width: 200px;
-    height: 200px;
-    padding: 3%;
-
+    width: 100px;
+    height: 120px;  
 }
 
 
