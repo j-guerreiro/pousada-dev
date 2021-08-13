@@ -315,28 +315,44 @@ body {
 }
 
 .footer{
+    width: 100%;
+    position: absolute;
     background-color: rgb(12, 150, 97);
     padding: 1%;
-    top: 100px;
     display: flex;
     color: white;
-    flex-direction: row;
     flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 40px;
+    
 }
 
 .footer .cards-footer {
-
+    margin: auto;
 }
 
 .cards-footer a {
     text-decoration: none;
     color: white;
+}
+
+.cards-footer img {
+    width: 35px;
+    height: 35px;
+}
+
+.cards-footer h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cards-footer p{
+    width: 10px;
 
 }
 
 .footer #copyright {
-
-    text-align: center;
-    color: white;
+    font-weight: bold;
+    margin-left: 450px;
 
 }
