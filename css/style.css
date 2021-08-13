@@ -286,10 +286,10 @@ body {
 }
 
 .footer{
+    top: 100px;
     width: 100%;
-    position: absolute;
+    position: relative;
     background-color: rgb(12, 150, 97);
-    padding: 1%;
     display: flex;
     color: white;
     flex-wrap: wrap;
@@ -300,6 +300,7 @@ body {
 
 .footer .cards-footer {
     margin: auto;
+    padding: 10px;
 }
 
 .cards-footer a {
@@ -317,13 +318,14 @@ body {
     font-size: 20px;
 }
 
-.cards-footer p{
-    width: 10px;
+.footer #copyright {
+    position: relative;
+    font-weight: bold;
+    bottom: 25px;
 
 }
 
-.footer #copyright {
-    font-weight: bold;
-    margin-left: 450px;
-
+#regua-footer {
+    width: 95%;
+    color: rgb(12, 150, 97);
 }
