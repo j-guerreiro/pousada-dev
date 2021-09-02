@@ -329,3 +329,21 @@ body {
     width: 95%;
     color: rgb(12, 150, 97);
 }
+
+
+/* CSS PAGINA QUARTOS
+
+Algumas regras de CSS da página de Quartos são compartilhadas com os estilos 
+da página index.html 
+
+*/
+
+.subtitulo-quartos {
+    
+    position: relative;
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
