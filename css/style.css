@@ -28,8 +28,8 @@ body {
 .link-topo:hover  {
 
     color: rgba(52, 133, 52, 0.589);
-    
-
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 .topo-2 {
