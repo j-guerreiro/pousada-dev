@@ -347,3 +347,12 @@ da página index.html
     font-weight: bold;
     
 }
+
+.info-quartos ul {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    
+}
