@@ -338,6 +338,16 @@ da página index.html
 
 */
 
+.container-1-quartos {
+
+    background-image: url(/assets/img-fundo.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 35vh;
+    cursor: pointer;
+    
+}
+
 .subtitulo-quartos {
     
     position: relative;
