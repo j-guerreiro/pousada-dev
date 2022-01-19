@@ -65,7 +65,7 @@
 }
 
 .quartos {
-  transition: 0.5s;
+  transition: all 0.3s ease;
 }
 
 .quartos:hover {
@@ -149,7 +149,7 @@
 
 .container-6-cards .cards {
   width: 600px;
-  transition: 0.5s;
+  transition: all 0.3s ease;
   padding: 1%;
 }
 
