@@ -27,3 +27,16 @@ Estou utilizando o editor de código VSCODE-Insiders, sistema operacional GNU Ar
 - Exercitar a busca por documentação técnica e boas práticas
 
 
+## UPDATE 19.01.2022
+
+
+## Objetivo Geral 
+
+Atualizando este projeto tendo em mente um design melhor tanto de interface como de código.
+
+## Objetivos específicos
+
+ - Buscar melhorias no código da página
+ - Aplicar tags de Web Semântica ( nav, header, section, footer etc. )
+ - Criar arquivo CSS externo para cada elemento de cada página ( ex: index.css -> index.html ; menu.css -> nav-menu )
+ - Melhorar o UI/UX do website com dicas de design para devs baseado no excelente tutorial da [Tania Rascia](https://www.taniarascia.com/design-for-developers/)
