@@ -241,4 +241,5 @@ da página index.html
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  color: #666;
 }
