@@ -6,6 +6,19 @@
 }
 
 .container-form {
+  margin-left: 20%;
+  transition: all 0.3s ease;
+  border: 0.1cm solid #efefef;
+  box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-top: 30px;
+  position: relative;
+  border: 1px solid #666;
+  width: 60%;
   text-align: center;
   height: 50vh;
+}
+
+.container-form:hover {
+  box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.8);
 }
