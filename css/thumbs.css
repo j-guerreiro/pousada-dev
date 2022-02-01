@@ -1,0 +1,7 @@
+.cards .btn .icone,
+.cards .btn .contador {
+  line-height: 32px;
+  text-align: center;
+  user-select: none;
+  width: 30%;
+}
