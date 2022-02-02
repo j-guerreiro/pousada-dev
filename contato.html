@@ -38,13 +38,13 @@
 	    <!-- BEGIN CONTAINER PRINCIPAL -->
 	    <div class="container-form">
         <form class="inner-form" name="form-contato">
-          <h1>Entre em Contato</h1>
-          <input type="text" id="nome-id" placeholder="Nome Sobrenome" class="inner-form" required="required" name="nome">
-          <label for="nome">Nome</label>
+          <h1 class="form-title">Entre em Contato</h1>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome-id" placeholder="Digite seu nome" class="inner-form" required="required" name="nome">
+          <label for=fone>Telefone:</label>
           <input type="text" id="fone-id" placeholder="(xx) x-xxxxx-xxxx" name="fone">
-          <label for=fone>Telefone</label>
+          <label for="mail">E-mail:</label>
           <input type="email" i="email-id" placeholder="nome@mail.com" name="email">
-          <label for="mail">E-mail</label>
           <textarea placeholder="Deixe sua mensagem"></textarea>
           <input type="submit" class="enviar" onClick="Enviar();" value="Enviar">
         </form>       
