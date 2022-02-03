@@ -1,5 +1,21 @@
 /* max-width */
 @media screen and (max-width: 600px) {
+  .topo-1 #logo-pousada {
+    visibility: hidden;
+  }
+
+  header .topo-1 {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    top: 10px;
+    border-radius: 10px;
+  }
+
+  .topo-1 a {
+    font-weight: 600;
+  }
+
   .container-1-fundo {
     background-image: url(/assets/img-fundo.jpg);
     background-repeat: no-repeat;
@@ -31,6 +47,10 @@
 }
 /* min-width & max-width */
 @media screen and (min-width: 600px) and (max-width: 900px) {
+  .container-1-fundo .container-1-titulo {
+    width: 60vw;
+    height: 30vh;
+  }
 }
 /* max-device-width */
 @media screen and (max-device-width: 480px) {
