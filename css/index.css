@@ -164,7 +164,8 @@
   padding: 10px;
 }
 
-.container-6-cards img {
+.container-6-cards img,span {
+  visibility: hidden;
   display: flex;
   position: absolute;
   margin-left: 60%;;
