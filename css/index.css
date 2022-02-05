@@ -136,21 +136,19 @@
 }
 
 .container-6-cards {
-  width: 70%;
-  display: flex;
-  flex-flow: column wrap;
-  row-gap: 20px;
-  margin-left: 10px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;  
+  padding: 1%;
+  row-gap: 5%;
+  margin-bottom: 100px;
 }
 
 .cards {
   border-radius: 10px;
   border: 0.02px solid #999;
-}
-
-.container-6-cards .cards {
-  width: 60%x;
-  padding: 5px;
+  height: 200px;
+  width: 600px;
 }
 
 .container-6-cards h3 {
@@ -160,17 +158,12 @@
 
 .container-6-cards p {
   font-weight: 350;
-  margin-right: 200px;
   padding: 10px;
 }
 
 .container-6-cards img, .container-6-cards span {
   visibility: hidden;
-  display: flex;
-  position: absolute;
-  margin-left: 60%;;
-  width: 180px;
-  height: 160px;
+  
 }
 
 /* CSS PAGINA QUARTOS
