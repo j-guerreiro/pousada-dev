@@ -139,9 +139,8 @@
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;  
-  padding: 1%;
+  padding: 3%;
   row-gap: 5%;
-  margin-bottom: 100px;
 }
 
 .cards {
@@ -159,39 +158,20 @@
 .container-6-cards p {
   font-weight: 350;
   padding: 10px;
+  width: 70%;
 }
 
-.container-6-cards img, .container-6-cards span {
+.container-6-cards img {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 150px;
+  height: 120px;
+  bottom: 90%;
+  left: 70%;
+  border-radius: 10px;
+}
+
+.container-6-cards span, .container-6-cards .btn-thumb {
   visibility: hidden;
-  
-}
-
-/* CSS PAGINA QUARTOS
-
-Algumas regras de CSS da página de Quartos são compartilhadas com os estilos 
-da página index.html 
-
-*/
-
-.container-1-quartos {
-  background-image: url(/assets/img-fundo.jpg);
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 35vh;
-  cursor: pointer;
-}
-
-.subtitulo-quartos {
-  position: relative;
-  text-align: center;
-  padding: 15px 15px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.info-quartos ul {
-  position: relative;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
 }
