@@ -142,15 +142,15 @@
   margin: 10px 10px;
 }
 
-.cards:hover {
-  box-shadow: 5px 15px 15px rgb(123, 126, 123);
+.cards {
   border-radius: 10px;
+  border: 0.02px solid #999;
 }
 
 .container-6-cards .cards {
   width: 600px;
   transition: all 0.3s ease;
-  padding: 1%;
+  padding: 5px;
 }
 
 .container-6-cards h3 {
@@ -159,14 +159,15 @@
 
 .container-6-cards p {
   font-weight: 350;
-  margin-right: 150px;
+  margin-right: 100px;
+  padding: 10px;
 }
 
 .container-6-cards img {
   position: relative;
   left: 450px;
-  width: 130px;
-  height: 120px;
+  width: 180px;
+  height: 160px;
   bottom: 135px;
 }
 
