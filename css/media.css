@@ -52,10 +52,6 @@
     font-weight: 400;
     color: #ffff;
   }
-
-  .container-5-sobre {
-    width: 50px;
-  }
 }
 /* min-width */
 @media screen and (max-width: 900px) {

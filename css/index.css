@@ -136,11 +136,12 @@
 }
 
 .container-6-cards {
+  grid-template-columns: repeat(auto-fit, minmax(700px, 2fr));
+  margin: 0 auto;
   position: relative;
   display: grid;
-  grid-template-columns: 1fr 1fr;  
   padding: 3%;
-  row-gap: 10%;
+  grid-gap: 1rem;
   justify-content: center;
   align-content: center;
   margin: 2%;
