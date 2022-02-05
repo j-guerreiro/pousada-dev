@@ -51,7 +51,8 @@
 }
 
 .container-3-quartos {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
   padding: 1%;
   cursor: pointer;
 }
@@ -78,12 +79,10 @@
 }
 
 .container-3-quartos img {
-  display: flex;
   width: 95%;
   height: 95%;
   padding-left: 2%;
   padding-right: 2%;
-  align-content: flex-end;
 }
 
 .container-3-quartos hr {
