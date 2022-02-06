@@ -246,4 +246,11 @@ da página index.html
   list-style-type: none;
   margin: 0;
   padding: 0;
+  cursor: pointer;
+}
+
+.info-quartos hr {
+  color: rgba(12, 150, 97, 0.753);
+  width: 100%;
+  margin: auto;
 }
