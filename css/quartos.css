@@ -51,7 +51,8 @@
 }
 
 .container-3-quartos {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
   padding: 1%;
   cursor: pointer;
 }
@@ -242,4 +243,7 @@ da página index.html
   flex-flow: row wrap;
   justify-content: space-around;
   color: #666;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
