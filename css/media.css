@@ -56,6 +56,9 @@
   .container-5-sobre {
     width: 50px;
   }
+
+  .container-6-sobre {
+  }
 }
 /* min-width */
 @media screen and (max-width: 900px) {
