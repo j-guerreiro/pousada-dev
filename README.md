@@ -13,6 +13,8 @@ Todo código foi criado manualmente por mim J-GUERREIRO sem framework, somente c
 
 O objetivo inicial era reproduzir com fidelidade, mas ao longo do trabalho decidi também incluir melhorias no projeto gráfico original.
 
+![Layout Base do Projeto](assets/projeto-finalizado.gif)
+
 ## Ferramentas utilizadas
 
 Estou utilizando o editor de código VSCODE-Insiders, sistema operacional GNU Arch Linux instalado e configurado manualmente, navegador Mozilla Firefox, controle de versão Git via CLI e extensão Live Server do VSCODE.
