@@ -13,6 +13,8 @@ Todo código foi criado manualmente por mim J-GUERREIRO sem framework, somente c
 
 O objetivo inicial era reproduzir com fidelidade, mas ao longo do trabalho decidi também incluir melhorias no projeto gráfico original.
 
+![Layout Base do Projeto](assets/projeto-finalizado.gif)
+
 ## Ferramentas utilizadas
 
 Estou utilizando o editor de código VSCODE-Insiders, sistema operacional GNU Arch Linux instalado e configurado manualmente, navegador Mozilla Firefox, controle de versão Git via CLI e extensão Live Server do VSCODE.
@@ -40,3 +42,20 @@ Atualizando este projeto tendo em mente um design melhor tanto de interface como
  - Aplicar tags de Web Semântica ( nav, header, section, footer etc. )
  - Criar arquivo CSS externo para cada elemento de cada página ( ex: index.css -> index.html ; menu.css -> nav-menu )
  - Melhorar o UI/UX do website com dicas de design para devs baseado no excelente tutorial da [Tania Rascia](https://www.taniarascia.com/design-for-developers/)
+
+ 
+## UPDATE 05.02.2022
+
+
+## Objetivo Geral 
+
+Esta atualização estou buscando implementar padronização de código, de design e responsividade.
+
+## Objetivos específicos
+
+ - Página nova de contato com formulário de contato
+ - Atualização do menu principal com botão home e contato
+ - Atualização da seção sobre, contêineres com borda padrão
+ - Formulário de contato no padrão borda 0.02px solid #999
+ - Adicionando as primeiras media queries para criação do responsivo
+ - Menu responsivo criado, mas faltam muitas melhorias gerais

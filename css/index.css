@@ -51,7 +51,8 @@
 }
 
 .container-3-quartos {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
   padding: 1%;
   cursor: pointer;
 }
@@ -78,12 +79,10 @@
 }
 
 .container-3-quartos img {
-  display: flex;
   width: 95%;
   height: 95%;
   padding-left: 2%;
   padding-right: 2%;
-  align-content: flex-end;
 }
 
 .container-3-quartos hr {
@@ -136,66 +135,47 @@
 }
 
 .container-6-cards {
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  margin: 10px 10px;
+  grid-template-columns: repeat(auto-fit, minmax(700px, 2fr));
+  margin: 0 auto;
+  position: relative;
+  display: grid;
+  padding: 3%;
+  grid-gap: 1rem;
+  justify-content: center;
+  align-content: center;
+  margin: 2%;
 }
 
-.cards:hover {
-  box-shadow: 5px 15px 15px rgb(123, 126, 123);
+.cards {
   border-radius: 10px;
-}
-
-.container-6-cards .cards {
-  width: 600px;
-  transition: all 0.3s ease;
-  padding: 1%;
+  border: 0.02px solid #999;
+  height: 200px;
+  width: 700px;
+  background-color: #fff;
 }
 
 .container-6-cards h3 {
+  padding: 10px;
   font-weight: 600;
 }
 
 .container-6-cards p {
   font-weight: 350;
-  margin-right: 150px;
+  padding: 10px;
+  width: 70%;
 }
 
 .container-6-cards img {
   position: relative;
-  left: 450px;
-  width: 130px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 150px;
   height: 120px;
-  bottom: 135px;
+  bottom: 90%;
+  left: 75%;
+  border-radius: 10px;
 }
 
-/* CSS PAGINA QUARTOS
-
-Algumas regras de CSS da página de Quartos são compartilhadas com os estilos 
-da página index.html 
-
-*/
-
-.container-1-quartos {
-  background-image: url(/assets/img-fundo.jpg);
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 35vh;
-  cursor: pointer;
-}
-
-.subtitulo-quartos {
-  position: relative;
-  text-align: center;
-  padding: 15px 15px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.info-quartos ul {
-  position: relative;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+.container-6-cards span, .container-6-cards .btn-thumb {
+  visibility: hidden;
 }

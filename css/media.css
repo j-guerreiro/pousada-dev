@@ -15,7 +15,7 @@
 
   header .topo-1 {
     background-color: rgba(12, 150, 97, 0.95);
-    width: 100%;
+    width: 90%;
     margin-left: 10px;
     margin-right: 10px;
     top: 10px;
@@ -52,6 +52,7 @@
     font-weight: 400;
     color: #ffff;
   }
+<<<<<<< HEAD
 
   .container-5-sobre {
     width: 50px;
@@ -59,6 +60,8 @@
 
   .container-6-sobre {
   }
+=======
+>>>>>>> main
 }
 /* min-width */
 @media screen and (max-width: 900px) {
