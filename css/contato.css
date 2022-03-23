@@ -1,6 +1,7 @@
 .container-fundo {
   background-image: url(/assets/img-fundo.jpg);
-  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: repeat-x;
   width: 100%;
   height: 35vh;
 }

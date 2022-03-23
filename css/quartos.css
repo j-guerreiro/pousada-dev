@@ -223,7 +223,8 @@ da página index.html
 
 .container-1-quartos {
   background-image: url(/assets/img-fundo.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-position: center;
   width: 100vw;
   height: 35vh;
   cursor: pointer;
